@@ -17,7 +17,7 @@ function readXML() {
     xmlhttp.open("GET", "https://mail.google.com/mail/feed/atom", false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
-    //xmlText=xmlhttp.responseText;
+    ///xmlText=xmlhttp.responseText;
 
     var entries = new Array();
     var ent = xmlDoc.getElementsByTagName("entry");
